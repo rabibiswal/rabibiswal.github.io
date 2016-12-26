@@ -3,6 +3,8 @@ layout: page
 title: About Me
 ---
 
+![placeholder](https://rabinarayanb.github.io/public/images/me.jpg/200x200 "Rabinarayan Biswal")
+
 Hey there ! Glad to know, you are interested to know about me.
 
 Here is my short bio -   
