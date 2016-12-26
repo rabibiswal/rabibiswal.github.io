@@ -6,9 +6,9 @@ highlighter:      pygments
 permalink:        pretty
 
 # Setup
-title:            Tiny Contents
+title:            'Tiny Contents'
 tagline:          'A Jekyll theme'
-description:      'rippled through Rabinarayan Biswal's tiny experiences'
+description:      'rippled through Rabinarayan Biswals tiny experiences'
 url:              http://hyde.getpoole.com
 baseurl:          /
 
