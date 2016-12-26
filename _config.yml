@@ -9,12 +9,12 @@ permalink:        pretty
 title:            Tiny Contents
 tagline:          'A Jekyll theme'
 description:      'rippled through Rabinarayan Biswal's tiny experiences'
-url:              'https://rabinarayanb.github.io'
+url:              http://hyde.getpoole.com
 baseurl:          /
 
 author:
   name:           'Rabinarayan Biswal'
-  url:            https://twitter.com/@biswalrabi
+  url:            https://twitter.com/biswalrabi
 
 paginate:         5
 
@@ -22,4 +22,4 @@ paginate:         5
 version:          2.1.0
 
 github:
-  repo:           https://github.com/rabinarayanb/rabinarayanb.github.io
+  repo:           https://github.com/poole/hyde
