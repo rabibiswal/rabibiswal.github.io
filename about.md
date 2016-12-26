@@ -11,7 +11,7 @@ Here is my short bio -
     	"Name" : "Rabinarayan Biswal",
     	"Occupation" : "Architect/Software Engineer",
     	"Experience" : "10+ years",
-    	"Email" : "rabi.biswal@gmail.com"
+    	"Email" : "rabi.biswal@gmail.com",
     	"DefineMe" :
     	[
       		"Architect",
