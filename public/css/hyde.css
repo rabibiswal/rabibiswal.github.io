@@ -249,6 +249,14 @@ a.sidebar-nav-item:focus {
   color: #FF4081;
 }
 
-.post-title a {
+.theme-base-0f .post-title a {
+  color: #00B2B7;
+}
+
+strong {
+  color: #00B2B7;
+}
+
+em {
   color: #00B2B7;
 }
