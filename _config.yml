@@ -9,7 +9,7 @@ permalink:        pretty
 title:            Tiny Contents
 tagline:          'A Jekyll theme'
 description:      'rippled through Rabinarayan Biswal's tiny experiences'
-url:              ''
+url:              'https://rabinarayanb.github.io'
 baseurl:          /
 
 author:
@@ -17,3 +17,9 @@ author:
   url:            https://twitter.com/@biswalrabi
 
 paginate:         5
+
+# Custom vars
+version:          2.1.0
+
+github:
+  repo:           https://github.com/rabinarayanb/rabinarayanb.github.io
