@@ -3,7 +3,7 @@ layout: page
 title: About Me
 ---
 
-![placeholder](https://github.com/rabinarayanb/rabinarayanb.github.io/blob/master/public/image/Me.jpg "Rabinarayan Biswal")
+<img src="https://github.com/rabinarayanb/rabinarayanb.github.io/blob/master/public/image/Me.jpg" height="200" width="200" />
 
 Hey there ! Glad to know, you are interested to know about me.
 
