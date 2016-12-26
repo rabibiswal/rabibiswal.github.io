@@ -1,10 +1,10 @@
 ---
 layout: post
-title: Adapter Design Pattern
+title: Unit Testing - Best Practices
 ---
 
 
-I can't stress on the importance of unit testing. We all know importance and benefits of unit testing. However, many teams fail to use this tool to their benefits due to different reasons :
+I can't stress on the importance of unit testing. We all know the importance and benefits of unit testing. However, many teams fail to use this tool to their benefits due to different reasons :
 
 - Failing to realize the importance
 - Project pressure, lack of time
@@ -17,7 +17,7 @@ I'm not talking about using any DI framework, DI means simply DI. If Unit A has 
 ## Are there any best practices for unit testing?
 If you have a plural sight login, you can listen to this video - <a href="https://app.pluralsight.com/library/courses/mocking-with-moq" target="_blank" > Mocking with Moq </a>. I personally liked this video very much.
 
-Here are some characteristics of good unit tests.
+As explained in the video, here are some characteristics of good unit tests.
 
 - **Atomic** - One unit test should always meant to test one small unit. It shouldn't attempt to test multiple units.
 
