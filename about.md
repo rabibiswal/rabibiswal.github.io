@@ -1,30 +1,38 @@
 ---
 layout: page
-title: About
+title: About Me
 ---
 
-<p class="message">
-  Hey there! This page is included as an example. Feel free to customize it for your own use upon downloading. Carry on!
-</p>
+Hey there ! Glad to know, you are interested to know about me.
 
-In the novel, *The Strange Case of Dr. Jeykll and Mr. Hyde*, Mr. Poole is Dr. Jekyll's virtuous and loyal butler. Similarly, Poole is an upstanding and effective butler that helps you build Jekyll themes. It's made by [@mdo](https://twitter.com/mdo).
+Here is my short bio -   
 
-There are currently two themes built on Poole:
+      {
+    	"Name" : "Rabinarayan Biswal",
+    	"Occupation" : "Architect/Software Engineer",
+    	"Experience" : "10+ years",
+    	"Email" : "rabi.biswal@gmail.com"
+    	"What defines me in a single line?" :
+    	[
+      		"Architect",
+    		"Passionate Developer",
+    		"Avid Reader"
+    	],
+    	"Interests" :
+    	[
+      		"Algorithms",
+    		"Design Patterns",
+    		"Photography",
+    		"Entrepreneurship",
+    		"Philanthropy"
+    	]		  
+      }
 
-* [Hyde](http://hyde.getpoole.com)
-* [Lanyon](http://lanyon.getpoole.com)
 
-Learn more and contribute on [GitHub](https://github.com/poole).
+Eventually, I'm like you. I face issues on my day to day work.
 
-## Setup
+I search. I learn.
 
-Some fun facts about the setup of this project include:
+I learn and then search more. And I always wish someone could explain me with my way.
 
-* Built for [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [Sublime Text 2](http://sublimetext.com), an amazing code editor
-* Designed and developed while listening to music like [Blood Bros Trilogy](https://soundcloud.com/maddecent/sets/blood-bros-series)
-
-Have questions or suggestions? Feel free to [open an issue on GitHub](https://github.com/poole/issues/new) or [ask me on Twitter](https://twitter.com/mdo).
-
-Thanks for reading!
+This blog is the effort to explain everything I have learnt my way, through my experiments and experiences.
