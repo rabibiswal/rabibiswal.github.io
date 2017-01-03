@@ -3,7 +3,7 @@ layout: post
 title: Welcome New Year
 ---
 
-!["2017"]({{% site.baseurl % }}/public/image/2017.jpg "2017")
+!["2017"](public/image/2017.jpg "2017")
 
 **2016** - one precious golden year of my life, a year that taught me a lot. A year with  adventures and thrillers, with a mixed roller coaster drive.
 
