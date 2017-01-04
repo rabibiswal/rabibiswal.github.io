@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Welcome New Year
+tags: new-year
 ---
 
 !["2017"](public/image/2017.jpg "2017")
