@@ -19,7 +19,10 @@ title: Home
       {% endfor %}
     </ul>
 
-    {{ post.content }}
+    <!--{{ post.content }}-->
+
+     {{ post.excerpt }}
+    <a class="continue-reading" href="{{ post.url }}" rel="bookmark" title="Permalink to {{ post.title }}">Continue Reading...</a>
   </div>
 
   <ul class="share-buttons">
