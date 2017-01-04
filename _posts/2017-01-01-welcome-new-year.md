@@ -4,7 +4,7 @@ title: Welcome New Year
 tags: new-year
 ---
 
-!["2017"](public/image/2017.jpg "2017")
+!["2017"](/public/image/2017.jpg "2017")
 
 **2016** - one precious golden year of my life, a year that taught me a lot. A year with  adventures and thrillers, with a mixed roller coaster drive.
 

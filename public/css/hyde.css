@@ -326,7 +326,7 @@ ul.share-buttons{
 }
 
 ul.share-buttons li{
-  display: inline;
+  display: inline-block;
 }
 
 ul.share-buttons .sr-only {
