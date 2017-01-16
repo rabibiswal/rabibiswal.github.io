@@ -5,6 +5,10 @@ title: About Me
 
 <img src="../public/image/Me.jpg" height="200" width="200" />
 
+<a href="http://stackoverflow.com/users/2745538/rabi">
+<img src="http://stackoverflow.com/users/flair/2745538.png" width="208" height="58" alt="profile for Rabi at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for Rabi at Stack Overflow, Q&amp;A for professional and enthusiast programmers">
+</a>
+
 Hey there ! Glad to know, you are interested to know about me.
 
 Here is my short bio -   
