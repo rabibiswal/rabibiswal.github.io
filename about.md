@@ -3,12 +3,6 @@ layout: page
 title: About Me
 ---
 
-<img src="../public/image/Me.jpg" height="200" width="200" />
-
-<a href="http://stackoverflow.com/users/2745538/rabi">
-<img src="http://stackoverflow.com/users/flair/2745538.png" width="208" height="58" alt="profile for Rabi at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for Rabi at Stack Overflow, Q&amp;A for professional and enthusiast programmers">
-</a>
-
 Hey there ! Glad to know, you are interested to know about me.
 
 Here is my short bio -   
@@ -54,6 +48,15 @@ Here is my short bio -
 		]
       }
 
+<a href="http://stackoverflow.com/users/2745538/rabi">
+<img src="http://stackoverflow.com/users/flair/2745538.png" width="208" height="58" alt="profile for Rabi at Stack Overflow, Q&amp;A for professional and enthusiast programmers" title="profile for Rabi at Stack Overflow, Q&amp;A for professional and enthusiast programmers">
+</a>
+
+<div>
+	<img src="../public/image/tech/dotnet.png" class="tile-sm"/>
+	<img src="../public/image/tech/javascript.png" class="tile-sm"/>
+
+</div>
 
 Eventually, I'm like you. I face issues on my day to day work.
 
