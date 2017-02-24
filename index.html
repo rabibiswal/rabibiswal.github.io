@@ -11,11 +11,26 @@ title: Home
         {{ post.title }}
       </a>
     </h1>
-
     <span class="post-date">{{ post.date | date_to_string }}</span>
 
-    {{ post.content }}
+    <ul class="tags">
+      {% for tag in post.tags %}
+      <li><a href="/tags#{{ tag }}" class="tag">{{ tag }}</a></li>
+      {% endfor %}
+    </ul>
+
+    <!--{{ post.content }}-->
+
+     {{ post.excerpt }}
+    <a class="continue-reading" href="{{ post.url }}" rel="bookmark" title="Permalink to {{ post.title }}">Continue Reading...</a>
   </div>
+<!--
+  <ul class="share-buttons">
+    <li><a href="https://www.facebook.com/sharer/sharer.php?u={{site.url}}{{ post.url }}&t={{ post.title }}" title="Share on Facebook" target="_blank"><img alt="Share on Facebook" src="/public/image/social/Facebook.png"></a></li>
+    <li><a href="https://twitter.com/intent/tweet?source={{site.url}}{{ post.url }}&text={{ post.title }}:%20https%3A%2F%2Frabibiswal.github.io" target="_blank" title="Tweet"><img alt="Tweet" src="/public/image/social/Twitter.png"></a></li>
+    <li><a href="https://plus.google.com/share?url={{site.url}}{{ post.url }}" target="_blank" title="Share on Google+"><img alt="Share on Google+" src="/public/image/social/Google+.png"></a></li>
+    <li><a href="http://www.linkedin.com/shareArticle?mini=true&url={{site.url}}{{ post.url }}&title={{ post.title }}&summary=&source=https%3A%2F%2Frabibiswal.github.io" target="_blank" title="Share on LinkedIn"><img alt="Share on LinkedIn" src="/public/image/social/LinkedIn.png"></a></li>
+  </ul>-->
   {% endfor %}
 </div>
 
