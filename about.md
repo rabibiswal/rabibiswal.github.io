@@ -54,12 +54,18 @@ Here is my short bio -
 
 <div>
 	<h3>Tools & Technologies I have worked</h3>
-	<img src="../public/image/tech/dotnet.png" class="tile-sm" alt=".Net"/>
-	<img src="../public/image/tech/javascript.png" class="tile-sm" alt="Javascript"/>
-	<img src="../public/image/tech/azure.png" class="tile-sm" alt="Microsoft Azure"/>
-	<img src="../public/image/tech/angularjs.png" class="tile-sm" alt="Angular JS"/>
-	<img src="../public/image/tech/nodejs.png" class="tile-sm" alt="Node JS"/>
-	<img src="../public/image/tech/reactjs.png" class="tile-sm" alt="React JS"/>	
+	<img src="../public/image/tech/dotnet.png" class="tile-sm" alt=".Net" title=".Net"/>
+	<img src="../public/image/tech/javascript.png" class="tile-sm" alt="Javascript" title="javascript"/>
+	<img src="../public/image/tech/azure.png" class="tile-sm" alt="Microsoft Azure" title="Microsoft Azure"/>
+	<img src="../public/image/tech/angularjs.png" class="tile-sm" alt="Angular JS"  title="Angular JS"/>
+	<img src="../public/image/tech/nodejs.png" class="tile-sm" alt="Node JS"  title="Node JS"/>
+	<img src="../public/image/tech/reactjs.png" class="tile-sm" alt="React JS" title="React JS"/>	
+	<img src="../public/image/tech/sqlserver.png" class="tile-sm" alt="SQL Server" title="SQL Server"/>	
+	<img src="../public/image/tech/mongodb.jpg" class="tile-sm" alt="Mongo DB" title="Mongo DB"/>	
+
+	<h3>Learning</h3>
+	<img src="../public/image/tech/python.png" class="tile-sm" alt="Python" title="Python" />
+	
 </div>
 
 Eventually, I'm like you. I face issues on my day to day work.
