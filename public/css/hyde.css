@@ -41,7 +41,7 @@ html {
 }
 @media (min-width: 58em) {
   html {
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 
@@ -59,6 +59,7 @@ html {
   color: rgba(255,255,255,.5);
   background-color: #202020;
 }
+
 @media (min-width: 48em) {
   .sidebar {
     position: fixed;
@@ -69,6 +70,18 @@ html {
     text-align: left;
   }
 }
+
+@media (min-width: 64em) {
+  .sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 24rem;
+    text-align: left;
+  }
+}
+
 
 /* Sidebar links */
 .sidebar a {
@@ -136,7 +149,8 @@ a.sidebar-nav-item:focus {
 
 @media (min-width: 64em) {
   .content {
-    margin-left: 22rem;
+    max-width: 50rem;
+    margin-left: 28rem;
     margin-right: 4rem;
   }
 }
@@ -241,7 +255,7 @@ a.sidebar-nav-item:focus {
 }
 
 /* Brown */
-.theme-base-0f .sidebar {
+/*.theme-base-0f .sidebar {
   background-color: #00B2B7;
 }
 .theme-base-0f .content a,
@@ -251,7 +265,21 @@ a.sidebar-nav-item:focus {
 
 .theme-base-0f .post-title a {
   color: #00B2B7;
+}*/
+
+/* Brown */
+.theme-base-0f .sidebar {
+  background-color: #3F51B5;
 }
+.theme-base-0f .content a,
+.theme-base-0f .related-posts li a:hover {
+  color: #FF5177;
+}
+
+.theme-base-0f .post-title a {
+  color: #3F51B5;
+}
+
 
 /*strong {
   color: #00B2B7;
