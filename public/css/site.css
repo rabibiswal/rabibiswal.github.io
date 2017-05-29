@@ -11,7 +11,7 @@
   padding: 0;
 }
 
-.tag
+.tags > .tag
 {
     list-style-type: none;    
     display: inline-block;
