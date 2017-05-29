@@ -20,3 +20,16 @@
     background: #FFCE4C;    
     padding: 2px 5px 2px 5px;
 }
+
+.tags > li
+{
+  display: inline-block;
+}
+
+.continue-reading
+{
+  display:block;
+  font-size:0.75rem;
+  font-weight: bold;
+}
+
