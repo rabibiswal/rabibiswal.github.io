@@ -5,3 +5,18 @@
     display : inline-block;
     margin : 15px;
 }
+
+.tags 
+{
+  padding: 0;
+}
+
+.tag
+{
+    list-style-type: none;    
+    display: inline-block;
+    font-size: 0.75rem;
+    font-weight: bold;
+    background: #FFCE4C;    
+    padding: 2px 5px 2px 5px;
+}
