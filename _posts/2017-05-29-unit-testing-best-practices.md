@@ -44,5 +44,5 @@ Ideally, unit tests should be able to run in almost any environment without need
 
 ###### THUMB RULES?
 
-– use DI properly
-– use a mocking framework
+-  use DI properly
+-  use a mocking framework
