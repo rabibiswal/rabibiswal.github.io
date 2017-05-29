@@ -3,8 +3,20 @@
     width : 100px;
     height: 100px;
     display : inline-block;
-    margin : 15px;
+    margin : 20px;
 }
+
+.tile-sm-plain
+{
+    width : 100px;
+    height: 100px;
+    display : inline-block;
+    margin : 20px;
+    background-color: #FFCE4C;
+    color: #EE398B;
+    font-size: 1.5rem;
+}
+
 
 .tags 
 {
