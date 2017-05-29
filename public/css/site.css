@@ -9,11 +9,11 @@
 .tags 
 {
   padding: 0;
+  list-style-type: none;      
 }
 
-.tags > .tag
+.tag
 {
-    list-style-type: none;    
     display: inline-block;
     font-size: 0.75rem;
     font-weight: bold;
