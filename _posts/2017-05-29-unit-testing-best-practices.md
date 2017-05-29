@@ -15,6 +15,8 @@ We all know importance and benefits of unit testing. However, many fail to use t
 
 I’m not talking about using any DI framework, DI means simply DI. If Unit A has a dependency on Unit B, are you injecting the dependency or hard-wired (new operator or static methods) the dependency? If you are using DI, welcome to the world of Unit Testing.
 
+<!--more-->
+
 ###### ARE THERE ANY BEST PRACTICES FOR UNIT TESTING?
 
 If you have a plural sight login, you can watch this video –
