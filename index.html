@@ -19,10 +19,15 @@ title: Home
       {% endfor %}
     </ul>
 
-    <!--{{ post.content }}-->
-
-     {{ post.excerpt }}
+  { % if post.content contains '<!--more-->' % }
+    {{ post.content | split:'<!--more-->' | first }}
     <a class="continue-reading" href="{{ post.url }}" rel="bookmark" title="Permalink to {{ post.title }}">Continue Reading...</a>
+  { % else % }
+    {{ post.content }}
+  {% endif %}
+
+    <!--{{ post.content }}-->
+  
   </div>
 <!--
   <ul class="share-buttons">
