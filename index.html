@@ -19,12 +19,8 @@ title: Home
       {% endfor %}
     </ul>
 
-  { % if post.content contains '<!--more-->' % }
-    {{ post.content | split:'<!--more-->' | first }}
+    {{ post.content | strip_html | truncatewords:75 }}
     <a class="continue-reading" href="{{ post.url }}" rel="bookmark" title="Permalink to {{ post.title }}">Continue Reading...</a>
-  { % else % }
-    {{ post.content }}
-  {% endif %}
 
     <!--{{ post.content }}-->
   
