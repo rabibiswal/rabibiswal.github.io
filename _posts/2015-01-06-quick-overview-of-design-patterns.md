@@ -37,6 +37,6 @@ The GoF (Gang of Four) team (Erich Gamma, Ralph Johnson,  John Vlissides and Ric
  
 Not all patterns are equally or highly used. Here is the pattern list grouped by their usage.
 
-<img src="../public/image/posts/design-patterns-usage.png" />
+<img src="/public/image/posts/design-patterns-usage.png" />
 
 
