@@ -20,5 +20,21 @@ I'll take you though the history of authentication mechanism, quickly.
 	- Shared systems (may create security issues)
 	- lack of necessary infrastructure etc.
 	
-- **Claim Based Identity**
-	With the increased need for cross-organization collaboration `Identity Providers` came into picture. An Identity Provider is a trusted entity across applications of different networks.
+- **Claim Based Authentication**
+	With the increased need for cross-organization collaboration `Identity Providers` came into picture. An Identity Provider is a trusted entity across applications of different networks. This brings few interesting topics. How do applications with in local network identify an Identity Provider?With heterogeneous network infrastructures, how do applications accepts a legitimate user who claims to be authenticated by Identity Provider? 
+
+	First, application has to `trust` the Identity Provider (this process is done offline by a process call app registration).
+
+	Then comes the usage of `Token`. A token is a special string that is digitally signed by Identity Provider. 
+
+	>Two popular token formats are SAML(Security Assertion Markup Language) and JWT(JSON Web Token). SAML is basically a XML style token format, where as, JWT is JSON based.
+	
+	A token contains, `Claims` (attributes of user's identity).
+
+	Claim based authentication introduced bunch of protocols. Two populars are `SAML` and `WS-Federation`.
+
+- **OAuth 1.0**
+	OAuth emerged from collaboration of different companies like Twitter,Google, Yahoo to eliminate the loopholes in Claim based authentication and to support growing user base on public Internet.
+
+- **OAuth 2.0**
+	
