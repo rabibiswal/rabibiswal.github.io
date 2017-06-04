@@ -1,7 +1,7 @@
 ---
 layout: post
 title: A Brief On Authentication Mechanism
-tags: azure AAD authentication beginners
+tags: authentication azure AAD AWS IAM OAuth openid-connect beginners
 ---
 
 I'll take you though the history of authentication mechanism, quickly.
@@ -60,3 +60,8 @@ I'll take you though the history of authentication mechanism, quickly.
 	OpenID Connect is the third generation of OpenID technology that is backward compatible with OpenID 2.0. OpenID Connect adopted standard JSON Web Token (JWT) data structures, that made OpenID Connect dramatically easier for developers to implement.
 
 	There are still few flaws found out in OAuth 2.0 and OpenId Connect as claimed by researchers. Hopefully there will be many more improvements coming up in near future.
+
+- **Cloud Based Authentication**
+	Azure Active Directory (AAD) is microsoft's cloud based service (Identity As A Service) that provides features needed to handle authentication in cloud-based workloads. Azure AD  covers full range of protocols, from SAML and WS-Federation to all the known variations of OAuth2 and OpenID Connect.
+
+	AWS has similar offering known as IAM (Identity and Access Management). AWS IAM can be used to grant  permissions to different people for different resources (Amazon EC2, Amazon S3 etc.).     
