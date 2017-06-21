@@ -13,7 +13,7 @@ I assume you have Windows PowerShell already installed on your box. If you want 
 
 Now, you can use the Web Platform Installer to install Microsoft Azure Power Shell module.
 
-<img src="/public/image/posts/wpi.png" />
+<img src="/public/image/posts/wpi-view.png" />
 
 ###### HOW DO I START USING AZURE COMMANDLETS?
 
